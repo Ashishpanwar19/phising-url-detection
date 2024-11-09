@@ -58,18 +58,19 @@ Feature Extraction Module: Detailed explanation of the features used for model t
 Model Training Module: The algorithms used and why they were chosen (e.g., Random Forest due to interpretability, or SVM for high accuracy).
 3. API Documentation (if applicable)
 
-API design if the phishing detection model is exposed as a service (e.g., a REST API for URL classification).
-4. Setup and Usage Instructions
+Example Usage
 
-Instructions on how to set up the environment, install dependencies, and run the phishing detection model.
-Prototype or Initial Codebase
-GitHub Repository Link
- link to a public or private repository (depending on the submission guidelines) containing:
-Source Code: All the code used to build the model, including scripts for data preprocessing, feature engineering, model training, and testing.
-Build and Deployment Instructions: Instructions on how to build and deploy the model, including the setup of necessary environments and dependencies (e.g., Python, scikit-learn).
-Let me know if you'd like further details or help with a specific section of the submission!
+    Launch the Chatbot: Open the chatbot on your preferred platform.
+    Input a URL: Type or paste a URL, e.g., http://example.com.
+    Receive Feedback:
+        If the URL is safe, the chatbot responds: "This URL is safe to visit."
+        If the URL is phishing, the chatbot might say: "Warning: This URL appears to be a phishing site. Here's why: The domain name is suspicious and does not match the official website."
+    Take Action: Based on the feedback, the user can choose to avoid visiting the site, report it, or take additional precautions.
 
+   Technologies Used
 
-
-
+    Frontend: React.js (or another framework of choice) for building the chatbot interface.
+    Backend: Node.js / Python (depending on your choice) for processing URL checks.
+    Machine Learning Models: A model trained on phishing URL datasets for detection (e.g., Random Forest, SVM).
+    APIs: Integration with URL reputation APIs (e.g., Google Safe Browsing, PhishTank) for additional checks.
 
