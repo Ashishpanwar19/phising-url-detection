@@ -1,4 +1,4 @@
-# phising-url-detection with chatpot ui
+# phising attack-url-detection with chatpot ui
 1. Project Objectives
 
 Goal: To develop a machine learning model that can accurately detect phishing URLs based on patterns and characteristics.
